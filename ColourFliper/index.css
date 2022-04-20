@@ -1,0 +1,98 @@
+/*container{
+   height:60vh;
+   width: 95vw;
+   background-color: whitesmoke;
+   outline: 8px solid black;
+   display: grid;
+  
+   grid-template-columns:
+   [col-start] 1fr
+   [col-2] 1fr
+   [col-3] 1fr
+   [col-end];
+   grid-template-rows:repeat(3, 80px);
+}
+.items{
+   display: flex;
+   border:1px solid black;
+   justify-content:center;
+   align-items:center;
+   font-size:4vw;
+   background-color:orange;
+   border-radius:4px;
+   cusor: pointer;
+}
+.one{
+   /*
+   grid-column-start: [col-start];
+   grid-column-end:span ;
+   */
+
+/*nav{
+   flex: 1;
+   text-align: right;
+
+}
+nav ul{
+   display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+nav ul li a{
+color:#000;
+   text-decoration: none;
+   text-align: right;
+   padding-left:20px ;
+   margin-top: 5px;
+   font-size: 40px;
+   
+}
+*/
+nav {
+    display: flex;
+    justify-content: center;
+ }
+h4{
+   font-size: 4vh;
+   font-family: sans-serif;
+}
+ nav ul{
+    list-style: none;
+ }
+ nav li{
+    display:flex;
+    margin-left:10px;
+    padding-top: 0px;
+ }
+ nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px 10px 20px 10px;
+}
+ .container{
+    text-align: center;
+ }
+ h2{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+ }
+ .btn{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color:black;
+    color: white;
+ }
+ 
